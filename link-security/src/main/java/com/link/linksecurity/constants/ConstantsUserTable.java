@@ -19,4 +19,14 @@ public class ConstantsUserTable {
     public static class Password {
         public static final String NAME = "user_password";
     }
+
+    public static class FirstName {
+        public static final String NAME = "user_first_name";
+        public static final int LENGTH = 20;
+    }
+
+    public static class LastName {
+        public static final String NAME = "user_last_name";
+        public static final int LENGTH = 20;
+    }
 }
